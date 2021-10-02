@@ -1,0 +1,10 @@
+1. Qual é a definição de uma URL? Dê um exemplo.
+Uma URL é um conjunto de elementos, que correspondem ao protocolo HTTP, ao endereço de domínio e 
+às páginas que estão agregadas a esse domínio. Exemplo: link que leva à receita de pizza napolitana.
+
+2. O que é o HTTP?
+É um protocolo de comunicação entre o navegador e o webserver (servidor de páginas de internet).
+
+3. O que são vendors em CSS?
+São prefixos que os fabricantes de browsers dispõem no CSS para que possamos testar novas 
+funcionalidades do CSS.
