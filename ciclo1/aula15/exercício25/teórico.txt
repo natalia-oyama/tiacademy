@@ -1,0 +1,8 @@
+1. Quais são os possíveis métodos para referenciar um seletor em um estilo CSS?
+Nome do elemento, identificação pelo id ou pela classe.
+
+2. Qual a finalidade do atributo href em uma âncora?
+Faz uma referência para um local interno ou externo.
+
+3. Qual é a tag semântica para criar menus de navegação?
+É a tag <nav>.

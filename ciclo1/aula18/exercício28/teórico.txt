@@ -1,0 +1,5 @@
+1. Como é possível descobrir qual é a fonte padrão de renderização do navegador?
+É possível por meio do dev tool, selecionando o elemento :root, que é o html. (entre 16 e 18 px)
+
+2. É verdade que quando alteramos um CSS diretamente no dev tool automaticamente alteramos o arquivo CSS?
+Não, essa modificação é apenas virtual, naquele momento, não alterando o arquivo CSS.

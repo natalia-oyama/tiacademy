@@ -1,0 +1,8 @@
+1. Qual é a diferença da unidade de medida em e rem?
+Em procura a formatação de medida do próximo elemento pai. Já a unidade de medida do rem é baseada no :root.
+
+Como é criada uma variável no CSS? Dê um exemplo.
+Normalmente é criada no seletor :root. Exemplo:
+:root{
+    --nome_da_var: valor;
+}
