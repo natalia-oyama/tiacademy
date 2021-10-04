@@ -1,9 +1,0 @@
-1. Dê uma definição para o elemento HTML <body>.
-É dentro do <body> que será construído toda a estrutura HTML da página. Ele corresponde ao corpo de todo o
-conteúdo da página.
-
-2. É correto afirmar que por padrão todos os elementos HTML possuem uma definição de margem e padding?
-Não, nem todos os elementos possuem prédefinição de margem e padding.
-
-3. Uma tag <figure> pode conter várias tags <figurecaption>.
-Não, deve-se utilizar apenas uma tag <figcaption> para cada tag <figure>.
