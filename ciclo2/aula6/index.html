@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 6</title>
+</head>
+<script>
+    //Declaração de variável
+    var qualquer; //variável global
+    let qq = "Variável let."; //variável global
+    const valorConstante = 100; //variável fglobal
+
+    if(true){
+        console.log(valorConstante);
+
+        var varDentroDoIf = "Estou dentro do if. Sou uma var.";
+        let letDentroDoIf = "Sou uma let e estou dentro do if.";
+    }
+
+    console.log(varDentroDoIf);
+
+    //Funções
+    function soma(){
+        console.log(1 + 3);
+    }
+
+    soma();
+
+    function concatenaNome(){
+        var nome = "Natalia"; //variável local
+        var sobrenome = "Oyama"; //variável local
+
+        alert(nome + " " + sobrenome);
+    }
+
+    concatenaNome();
+
+    function novaConcatenar(nome, sobrenome){
+        document.write(nome + " " + sobrenome);
+    }
+
+    novaConcatenar("Natalia", "Oyama");
+
+    let semNome = function(){
+        alert("Estou em uma função anônima.");
+    }
+
+    semNome();
+</script>
+<body>
+    
+</body>
+</html>

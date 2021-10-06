@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5</title>
+</head>
+<script>
+    // alert("Olá, Mundo!");
+    // prompt("Digite algo: ");
+    // confirm("Clique em um botão.");
+
+    // var nome = prompt("Digite seu nome: ");
+    // var cor = prompt("Qual é sua cor favorita, " + nome + "?");
+
+    // document.write("Nome: " + nome + "<br>");
+    // document.write("Cor favorita: " + cor);
+
+    // var vF = confirm("Clique em um botão.");
+
+    // if(vF){
+    //     document.write("Você clicou em 'Ok'");
+    // }else{
+    //     document.write("Você clicou em 'Cancelar'");
+    // }
+
+    var opcao = prompt("Digite 1 ou 2 para continuar: ");
+
+    switch(opcao){
+        case "1":
+            var pergunta = confirm("Você pretende continuar a operação?");
+
+            if(pergunta){
+                alert("Parabéns! Você está ficando bom!");
+            }else{
+                alert("Poxa! Está aflito?");
+            }
+        break;
+        case "2":
+            var pergunta = confirm("Você é casado(a)?");
+
+            if(pergunta){
+                var nome = prompt("Qual é o nome da(o) sua(eu) esposa(o)?");
+                alert("Parabéns por ser casado(a) com a(o) " + nome + "!");
+            }else{
+                alert("Tudo bem! Você irá encontrar alguém, caso queira ter uma parceiro(a).");
+            }
+        break;
+        default:
+            console.log("Esta opção não existe!");
+        break;
+    }
+</script>
+<body>
+    
+</body>
+</html>
